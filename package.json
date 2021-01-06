@@ -1,25 +1,21 @@
 {
-  "name": "lib-test",
+  "name": "design-system",
   "version": "0.1.0",
-  "main": "./dist/lib-test.common.js",
+  "main": "./dist/design-system.common.js",
   "scripts": {
     "serve": "vue-cli-service serve playground/main.ts",
     "build": "vue-cli-service build --target lib src/main.ts --formats=commonjs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.0.0-beta.23",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "vue-demi": "0.5.3"
-  },
-  "peerDependencies": {
-    "@vue/composition-api": "^1.0.0-beta.22",
-    "vue": "^2.6.11 || >=3.0.0-rc.0"
+    "vue-demi": "latest"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
+    "@vue/composition-api": "^1.0.0-beta.23",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
@@ -35,7 +31,7 @@
     "postcss-cli": "^8.1.0",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
-    "vue": "^2.6.11 || >=3.0.0-rc.0",
+    "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
