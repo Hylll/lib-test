@@ -15,7 +15,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue-demi';
+import { defineComponent, ref } from '@vue/composition-api';
 
 export default defineComponent({
   name: 'GButton',
